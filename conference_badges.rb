@@ -19,3 +19,10 @@ def assign_rooms(names)
   end
   return newArray
 end
+
+def printer(attendees)
+  print = batch_badge_creator(attendees)
+  print.each do |line|
+    puts line
+  end
+end
