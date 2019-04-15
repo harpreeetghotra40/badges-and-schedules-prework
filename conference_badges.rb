@@ -15,7 +15,7 @@ def assign_rooms(names)
   newArray = []
   names.each do |name|
     newArray.push("Hello, #{name}! You'll be assigned to room #{iterator}!")
-    iterator++
+    iterator += 1
   end
   return newArray
 end
