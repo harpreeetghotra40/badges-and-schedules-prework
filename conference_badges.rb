@@ -9,9 +9,3 @@ def batch_badge_creator(array_of_names)
   end
   return newArray
 end
-
-
-
-def printer
-
-end
