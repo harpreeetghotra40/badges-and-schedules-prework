@@ -25,4 +25,9 @@ def printer(attendees)
   print.each do |line|
     puts line
   end
+
+  print = assign_rooms(attendees)
+  print.each do |line|
+    puts line
+  end
 end
